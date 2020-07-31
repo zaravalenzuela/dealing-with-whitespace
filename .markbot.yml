@@ -1,0 +1,43 @@
+repo: "dealing-with-whitespace"
+canvasCourse: "web-design-1"
+
+inherit:
+  - naming-restrict-live
+  - git-2
+  - css
+  - body-margin-0
+  - screenshots-320
+
+html:
+  - path: "index.html"
+    locked: true
+
+css:
+  - path: "css/main.css"
+    has:
+      - ["article"]
+      - ["article header"]
+      - ["article h1"]
+      - ["article header p"]
+      - ["article p"]
+      - ["article ol"]
+      - ["blockquote"]
+      - [".quote"]
+    search:
+      - "1.3"
+      - "1.125rem"
+      - "1.5rem"
+      - "1em"
+      - "#555"
+      - "#999"
+      - "#222"
+      - "color"
+      - "Crimson Text"
+      - "border"
+      - "line-height"
+      - "margin"
+      - "padding"
+      - "font-family"
+      - "font-style"
+      - "font-weight"
+      - "font-size"
