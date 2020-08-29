@@ -5,6 +5,7 @@ inherit:
   - naming-restrict-live
   - git-2
   - css
+  - border-box
   - body-margin-0
   - screenshots-320
 
